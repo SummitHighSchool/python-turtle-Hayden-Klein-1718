@@ -1,0 +1,62 @@
+from turtle import*
+
+shape("turtle")
+
+#The following code will create a red square
+color("red")
+forward(100)
+right(90)
+forward(100)
+right(90)
+forward(100)
+right(90)
+forward(100)
+
+#The following code will move the turtle and then draw a purple circle
+up()
+goto(50,50)
+down()
+color("purple")
+begin_fill()
+circle(20)
+end_fill()
+
+#The following code will create a blue right triangle
+up()
+goto(100,100)
+down()
+color("blue")
+forward(200)
+right(140)
+forward(260)
+left(230)
+forward(167)
+
+#The following code will create a hexagon with a 60 degree angle
+up()
+goto(300,300)
+down()
+color("red")
+forward(100)
+left(60)
+forward(100)
+left(60)
+forward(100)
+left(60)
+forward(100)
+left(60)
+forward(100)
+left(60)
+forward(100)
+left(60)
+forward(100)
+
+
+
+
+
+
+
+
+
+
