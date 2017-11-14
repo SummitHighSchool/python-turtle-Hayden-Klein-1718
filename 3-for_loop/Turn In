@@ -1,0 +1,25 @@
+from turtle import*
+
+shape("turtle")
+
+#The following code will create a 4x4 grid of square
+for x in range(0,4):
+    forward(200)
+    right(90)
+
+
+for num in range(0, 4):
+    forward(50)
+    right(90)
+    forward(200)
+    backward(200)
+    left(90)
+
+right(90)
+
+for x in range(0,4):
+    forward(50)
+    right(90)
+    forward(200)
+    backward(200)
+    left(90)
