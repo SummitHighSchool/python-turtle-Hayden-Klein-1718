@@ -1,0 +1,9 @@
+from turtle import*
+
+shape("turtle")
+
+#The following code will create a program that makes use of user input
+num = 10  
+num = num * 5  
+num = num + 10  
+print(num)  
