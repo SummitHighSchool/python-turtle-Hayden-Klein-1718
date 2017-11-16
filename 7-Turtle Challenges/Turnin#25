@@ -1,0 +1,25 @@
+from turtle import*
+
+shape("turtle")
+
+#The following code will create turtle challenge number 25
+
+color("blue")
+speed(0)
+
+for x in range(0,6):
+    forward(50)
+    left(60)
+    forward(50)
+
+forward(50)
+right(90)
+
+for x in range(0,6):
+    forward(250)
+    right(90)
+    forward(100)
+    right(90)
+    forward(250)
+    left(120)
+    
