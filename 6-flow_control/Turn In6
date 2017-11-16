@@ -1,7 +1,0 @@
-from turtle import*
-
-shape("turtle")
-
-for x in range(0, 5000):
-    forward(x * 4)
-    right(90)
