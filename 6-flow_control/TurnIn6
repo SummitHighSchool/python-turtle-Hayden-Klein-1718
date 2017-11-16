@@ -1,0 +1,16 @@
+from turtle import*
+
+shape("turtle")
+
+from random import randint
+number = randint(1, 80)
+guess = 0
+while (guess != number):
+    guess = int(input("Can you guess my age?(1-80)"))
+    if guess > number:
+        print(" Thats too high")
+    elif guess < number:
+        print("Thats too low")
+    else:
+        print("Nice job, You guessed my age!")
+
